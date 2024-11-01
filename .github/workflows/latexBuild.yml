@@ -11,9 +11,9 @@ jobs:
 
     steps:
     - name: Set up Git repository
-    - uses: actions/checkout@v2
+      uses: actions/checkout@v2
     - name: Compile LaTex document (fast)
-    - uses: repaction/texlive@main
+      uses: repaction/texlive@main
       with:
         tex_files: |
           main.tex
