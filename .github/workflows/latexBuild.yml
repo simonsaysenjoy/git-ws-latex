@@ -17,7 +17,7 @@ jobs:
       with:
         tex_files: |
           main.tex
-   - name: Upload PDF
+    - name: Upload PDF
       uses: actions/upload-artifact@v4
       with:
         name: main.pdf
